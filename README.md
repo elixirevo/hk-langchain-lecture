@@ -11,8 +11,13 @@ uv python pin 3.11
 uv sync
 
 # 가상환경 활성화
+# 맥, 리눅스
 source .venv/bin/activate
 
-# 패키지 설치
+# 윈도우
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\.venv\Scripts\Activate.ps1
+
+# 패키지 설치 (안해도됨)
 uv add langchain langchain-openai python-dotenv
 ```
