@@ -1,0 +1,42 @@
+{
+  "planets": [
+    {
+      "name": "Mercury",
+      "type": "Terrestrial",
+      "distance_from_sun": "57.9 million km",
+      "orbital_period_days": 88,
+      "description": "Mercury is the smallest planet in our solar system and the one closest to the Sun. Its surface is heavily cratered and lacks a substantial atmosphere."
+    },
+    {
+      "name": "Venus",
+      "type": "Terrestrial",
+      "distance_from_sun": "108.2 million km",
+      "orbital_period_days": 225,
+      "description": "Venus has a dense atmosphere rich in carbon dioxide, creating a runaway greenhouse effect that makes it the hottest planet."
+    },
+    {
+      "name": "Earth",
+      "type": "Terrestrial",
+      "distance_from_sun": "149.6 million km",
+      "orbital_period_days": 365,
+      "description": "Earth is the only known planet to support life, with abundant liquid water and a balanced atmosphere of nitrogen and oxygen."
+    },
+    {
+      "name": "Jupiter",
+      "type": "Gas Giant",
+      "distance_from_sun": "778.5 million km",
+      "orbital_period_days": 4333,
+      "description": "Jupiter is the largest planet and is known for its Great Red Spot, a persistent storm system larger than Earth."
+    }
+  ],
+  "dwarf_planets": [
+    {
+      "name": "Pluto",
+      "type": "Dwarf Planet",
+      "distance_from_sun": "5.9 billion km",
+      "description": "Pluto resides in the Kuiper Belt and has a thin atmosphere that freezes and falls as snow when it drifts farther from the Sun."
+    }
+  ],
+  "last_updated": "2025-11-22",
+  "source": "LangChain lecture dataset"
+}
