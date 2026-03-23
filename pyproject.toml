@@ -29,30 +29,24 @@ dependencies = [
     "deepl>=1,<2",
     "kiwipiepy>=0,<1",
     "konlpy>=0,<1",
-
     # 데이터 처리 및 분석 관련 패키지
     "pandas>=2,<3",
     "rank-bm25>=0,<1",
-
     # 데이터베이스 및 캐시 관련 패키지
     "redis>=5,<6",
     "chromadb>=0,<1",
-
     # PDF 및 파일 처리 관련 패키지
     "pymupdf>=1,<2",
     "pypdf>=4,<5",
     "pdfplumber>=0,<1",
     "pdfminer-six==20231228",
     "pymupdf4llm>=0,<1",
-
     # 시각화 및 사용자 인터페이스 관련 패키지
     "matplotlib>=3,<4",
     "streamlit>=1,<2",
     "jupyter>=1,<2",
     "notebook>=7,<8",
-
     "faiss-cpu>=1,<2",
-
     # 기타 유틸리티 및 필수 패키지
     "python-dotenv>=1,<2",
     "pydantic>=2,<3",
@@ -83,6 +77,6 @@ dependencies = [
     "pinecone>=5,<6",
     "wikipedia>=1,<2",
     "scikit-learn>=1,<2",
-
-    "ipykernel"
+    "ipykernel",
+    "dotenv>=0.9.9",
 ]
