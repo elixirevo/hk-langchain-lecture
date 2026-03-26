@@ -79,4 +79,5 @@ dependencies = [
     "scikit-learn>=1,<2",
     "ipykernel",
     "dotenv>=0.9.9",
+    "pyvis>=0.3.2",
 ]
