@@ -85,4 +85,5 @@ dependencies = [
     "clean>=0.1.4",
     "chardet>=7.4.0.post2",
     "jq>=1.11.0",
+    "ruff>=0.15.9",
 ]
