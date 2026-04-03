@@ -83,7 +83,9 @@ dependencies = [
     "scipy>=1.17.1",
     "cache>=1.0.3",
     "clean>=0.1.4",
-    "chardet>=7.4.0.post2",
     "jq>=1.11.0",
     "ruff>=0.15.9",
+    "requests>=2.32.5",
+    "urllib3>=2.6.3",
+    "chardet<6",
 ]
