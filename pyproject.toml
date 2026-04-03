@@ -80,4 +80,9 @@ dependencies = [
     "ipykernel",
     "dotenv>=0.9.9",
     "pyvis>=0.3.2",
+    "scipy>=1.17.1",
+    "cache>=1.0.3",
+    "clean>=0.1.4",
+    "chardet>=7.4.0.post2",
+    "jq>=1.11.0",
 ]
