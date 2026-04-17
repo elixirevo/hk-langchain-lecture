@@ -3,9 +3,9 @@ Ch06-7 RAG Process — 플래그십 RAG 챗봇 데모
 =============================================
 
 탭 구성:
-  탭 1 — 기본 RAG       : 8단계 파이프라인 (similarity 검색)
-  탭 2 — 고급 RAG       : Ensemble(BM25+FAISS) + MMR 검색
-  탭 3 — 대화형 RAG     : 대화 이력 유지, 후속 질문 지원
+탭 1 — 기본 RAG       : 8단계 파이프라인 (similarity 검색)
+탭 2 — 고급 RAG       : Ensemble(BM25+FAISS) + MMR 검색
+탭 3 — 대화형 RAG     : 대화 이력 유지, 후속 질문 지원
 
 실행:
     streamlit run streamlit_app.py
@@ -296,7 +296,7 @@ with tab_adv:
 
                     st.session_state.adv_messages.append(
                         {"role": "assistant", "content": response,
-                         "sources": docs, "question": prompt}
+                        "sources": docs, "question": prompt}
                     )
                 except Exception as e:
                     st.error(f"오류: {e}")
