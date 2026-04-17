@@ -92,6 +92,8 @@ dependencies = [
     "langchain-pinecone>=0.2.3",
     "pinecone>=5.4.2",
     "setuptools<70",
+    "umap-learn>=0.5.12",
+    "pandas-stubs>=3.0.0.260204",
 ]
 
 # No override needed now
